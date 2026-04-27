@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EROSS | Lencería & Accesorios</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #0b0b0b;
+      color: white;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 30px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .logo {
+      font-size: 2rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+
+    .logo span {
+      color: #d10000;
+    }
+
+    .btn {
+      text-decoration: none;
+      color: white;
+      border: 1px solid #d10000;
+      padding: 14px 28px;
+      border-radius: 14px;
+      transition: 0.3s;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background: #d10000;
+    }
+
+    .hero {
+      padding: 80px 8%;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 4rem;
+      margin-bottom: 15px;
+    }
+
+    .hero h2 {
+      font-size: 1.3rem;
+      color: #d10000;
+      margin-bottom: 30px;
+      font-style: italic;
+    }
+
+    .hero p {
+      max-width: 700px;
+      margin: auto;
+      color: #cfcfcf;
+      margin-bottom: 40px;
+      font-size: 1.1rem;
+    }
+
+    .actions {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .section {
+      padding: 70px 8%;
+    }
+
+    .title {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2rem;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #141414;
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 20px;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      color: #ffffff;
+    }
+
+    .card p {
+      color: #bbbbbb;
+      font-size: 0.95rem;
+    }
+
+    .location {
+      background: #111;
+      border-top: 1px solid rgba(255,255,255,0.08);
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #999;
+      border-top: 1px solid rgba(255,255,255,0.08);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">ER<span>OSS</span></div>
+    <a class="btn" href="https://wa.me/5214491009595" target="_blank">WhatsApp</a>
+  </header>
+
+  <section class="hero">
+    <h1>EROSS</h1>
+    <h2>"No dejes de jugar, solo cambia los juguetes"</h2>
+
+    <p>
+      Lencería, accesorios y atención discreta con un estilo elegante,
+      femenino y sensual. Diseñado para quienes buscan calidad,
+      confianza y una experiencia premium.
+    </p>
+
+    <div class="actions">
+      <a class="btn" href="https://wa.me/5214491009595" target="_blank">Contactar por WhatsApp</a>
+      <a class="btn" href="#catalogo">Ver Catálogo</a>
+      <a class="btn" href="#ubicacion">Ubicación</a>
+    </div>
+  </section>
+
+  <section class="section" id="catalogo">
+    <h2 class="title">Catálogo</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Lencería</h3>
+        <p>Diseños elegantes, femeninos y exclusivos.</p>
+      </div>
+
+      <div class="card">
+        <h3>Accesorios</h3>
+        <p>Productos seleccionados con calidad premium.</p>
+      </div>
+
+      <div class="card">
+        <h3>Regalos</h3>
+        <p>Opciones discretas y especiales para sorprender.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section location" id="ubicacion">
+    <h2 class="title">Ubicación</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Dirección</h3>
+        <p>Av. Siglo XXI 2551, Haciendas de Aguascalientes,<br>20196 Aguascalientes, Ags.</p>
+      </div>
+
+      <div class="card">
+        <h3>Horario</h3>
+        <p>Lunes a sábado<br>9:00 a.m. – 8:00 p.m.</p>
+      </div>
+
+      <div class="card">
+        <h3>Atención discreta</h3>
+        <p>Compras en tienda, retiros en puerta y entrega a domicilio con total privacidad.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    EROSS © 2026 — Elegancia, discreción y estilo.
+  </footer>
+
+</body>
+</html>
